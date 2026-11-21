@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Consultation | RSS Extensions</title>
+  <meta name="description" content="Fill out the RSS Extensions consultation form for Invisible K-Tip hair extensions at Studio Privé, Logan Square, Chicago.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="RSS Extensions home"><img src="images/logo.png" alt="RSS Extensions" width="95" height="66"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#about">About</a>
+      <a href="index.html#method">Method</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#reviews">Reviews</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    <a class="btn" href="index.html">Home</a>
+  </div>
+</header>
+
+<main class="form-page">
+  <div class="wrap">
+    <div class="form-head">
+      <p class="eyebrow">The Parlour Hair Enhancements Team</p>
+      <h1>Book Your <em>Consultation</em></h1>
+      <p>Tell me about your hair, your goals, and the look you’re chasing. Questions marked <span class="req">*</span> are required.</p>
+    </div>
+
+    <form class="form-card" id="consult-form" action="https://formsubmit.co/rssextensions@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
+      <!-- Form delivery settings (FormSubmit) -->
+      <input type="hidden" name="_subject" value="New consultation request — RSS Extensions">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" id="next-url" value="">
+      <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div class="error-box" id="error-box" role="alert"></div>
+
+      <fieldset>
+        <legend>1. Please fill out your contact info <span class="req">*</span></legend>
+        <div class="row">
+          <input type="text" name="First Name" placeholder="First Name *" autocomplete="given-name" required aria-label="First name">
+          <input type="text" name="Last Name" placeholder="Last Name *" autocomplete="family-name" required aria-label="Last name">
+        </div>
+        <div class="row">
+          <input type="email" name="email" placeholder="Email *" autocomplete="email" required aria-label="Email">
+          <input type="tel" name="Phone" placeholder="Phone *" autocomplete="tel" required aria-label="Phone">
+        </div>
+        <input type="text" name="Address Line 1" placeholder="Address Line 1 *" autocomplete="address-line1" required aria-label="Address line 1">
+        <input type="text" name="Address Line 2" placeholder="Address Line 2 (Optional)" autocomplete="address-line2" aria-label="Address line 2 (optional)">
+        <div class="row">
+          <div>
+            <label class="small-label" for="country">Country <span class="req">*</span></label>
+            <select id="country" name="Country" required autocomplete="country-name">
+              <option value="">Select country</option>
+              <option>United States</option>
+              <option>Afghanistan</option>
+              <option>Albania</option>
+              <option>Algeria</option>
+              <option>Andorra</option>
+              <option>Angola</option>
+              <option>Argentina</option>
+              <option>Armenia</option>
+              <option>Australia</option>
+              <option>Austria</option>
+              <option>Azerbaijan</option>
+              <option>Bahamas</option>
+              <option>Bahrain</option>
+              <option>Bangladesh</option>
+              <option>Barbados</option>
+              <option>Belarus</option>
+              <option>Belgium</option>
+              <option>Belize</option>
+              <option>Benin</option>
+              <option>Bhutan</option>
+              <option>Bolivia</option>
+              <option>Bosnia and Herzegovina</option>
+              <option>Botswana</option>
+              <option>Brazil</option>
+              <option>Brunei</option>
+              <option>Bulgaria</option>
+              <option>Burkina Faso</option>
+              <option>Burundi</option>
+              <option>Cabo Verde</option>
+              <option>Cambodia</option>
+              <option>Cameroon</option>
+              <option>Canada</option>
+              <option>Central African Republic</option>
+              <option>Chad</option>
+              <option>Chile</option>
+              <option>China</option>
+              <option>Colombia</option>
+              <option>Comoros</option>
+              <option>Congo (Congo-Brazzaville)</option>
+              <option>Costa Rica</option>
+              <option>Croatia</option>
+              <option>Cuba</option>
+              <option>Cyprus</option>
+              <option>Czechia</option>
+              <option>Denmark</option>
+              <option>Djibouti</option>
+              <option>Dominica</option>
+              <option>Dominican Republic</option>
+              <option>Ecuador</option>
+              <option>Egypt</option>
+              <option>El Salvador</option>
+              <option>Equatorial Guinea</option>
+              <option>Eritrea</option>
+              <option>Estonia</option>
+              <option>Eswatini</option>
+              <option>Ethiopia</option>
+              <option>Fiji</option>
+              <option>Finland</option>
+              <option>France</option>
+              <option>Gabon</option>
+              <option>Gambia</option>
+              <option>Georgia</option>
+              <option>Germany</option>
+              <option>Ghana</option>
+              <option>Greece</option>
+              <option>Grenada</option>
+              <option>Guatemala</option>
+              <option>Guinea</option>
+              <option>Guinea-Bissau</option>
+              <option>Guyana</option>
+              <option>Haiti</option>
+              <option>Honduras</option>
+              <option>Hungary</option>
+              <option>Iceland</option>
+              <option>India</option>
+              <option>Indonesia</option>
+              <option>Iran</option>
+              <option>Iraq</option>
+              <option>Ireland</option>
+              <option>Israel</option>
+              <option>Italy</option>
+              <option>Jamaica</option>
+              <option>Japan</option>
+              <option>Jordan</option>
+              <option>Kazakhstan</option>
+              <option>Kenya</option>
+              <option>Kiribati</option>
+              <option>Kuwait</option>
+              <option>Kyrgyzstan</option>
+              <option>Laos</option>
+              <option>Latvia</option>
+              <option>Lebanon</option>
+              <option>Lesotho</option>
+              <option>Liberia</option>
+              <option>Libya</option>
+              <option>Liechtenstein</option>
+              <option>Lithuania</option>
+              <option>Luxembourg</option>
+              <option>Madagascar</option>
+              <option>Malawi</option>
+              <option>Malaysia</option>
+              <option>Maldives</option>
+              <option>Mali</option>
+              <option>Malta</option>
+              <option>Marshall Islands</option>
+              <option>Mauritania</option>
+              <option>Mauritius</option>
+              <option>Mexico</option>
+              <option>Micronesia</option>
+              <option>Moldova</option>
+              <option>Monaco</option>
+              <option>Mongolia</option>
+              <option>Montenegro</option>
+              <option>Morocco</option>
+              <option>Mozambique</option>
+              <option>Myanmar</option>
+              <option>Namibia</option>
+              <option>Nauru</option>
+              <option>Nepal</option>
+              <option>Netherlands</option>
+              <option>New Zealand</option>
+              <option>Nicaragua</option>
+              <option>Niger</option>
+              <option>Nigeria</option>
+              <option>North Korea</option>
+              <option>North Macedonia</option>
+              <option>Norway</option>
+              <option>Oman</option>
+              <option>Pakistan</option>
+              <option>Palau</option>
+              <option>Palestine</option>
+              <option>Panama</option>
+              <option>Papua New Guinea</option>
+              <option>Paraguay</option>
+              <option>Peru</option>
+              <option>Philippines</option>
+              <option>Poland</option>
+              <option>Portugal</option>
+              <option>Qatar</option>
+              <option>Romania</option>
+              <option>Russia</option>
+              <option>Rwanda</option>
+              <option>Saint Kitts and Nevis</option>
+              <option>Saint Lucia</option>
+              <option>Saint Vincent and the Grenadines</option>
+              <option>Samoa</option>
+              <option>San Marino</option>
+              <option>Sao Tome and Principe</option>
+              <option>Saudi Arabia</option>
+              <option>Senegal</option>
+              <option>Serbia</option>
+              <option>Seychelles</option>
+              <option>Sierra Leone</option>
+              <option>Singapore</option>
+              <option>Slovakia</option>
+              <option>Slovenia</option>
+              <option>Solomon Islands</option>
+              <option>Somalia</option>
+              <option>South Africa</option>
+              <option>South Korea</option>
+              <option>South Sudan</option>
+              <option>Spain</option>
+              <option>Sri Lanka</option>
+              <option>Sudan</option>
+              <option>Suriname</option>
+              <option>Sweden</option>
+              <option>Switzerland</option>
+              <option>Syria</option>
+              <option>Tajikistan</option>
+              <option>Tanzania</option>
+              <option>Thailand</option>
+              <option>Timor-Leste</option>
+              <option>Togo</option>
+              <option>Tonga</option>
+              <option>Trinidad and Tobago</option>
+              <option>Tunisia</option>
+              <option>Turkey</option>
+              <option>Turkmenistan</option>
+              <option>Tuvalu</option>
+              <option>Uganda</option>
+              <option>Ukraine</option>
+              <option>United Arab Emirates</option>
+              <option>United Kingdom</option>
+              <option>Uruguay</option>
+              <option>Uzbekistan</option>
+              <option>Vanuatu</option>
+              <option>Vatican City</option>
+              <option>Venezuela</option>
+              <option>Vietnam</option>
+              <option>Yemen</option>
+              <option>Zambia</option>
+              <option>Zimbabwe</option>
+            </select>
+          </div>
+          <div>
+            <label class="small-label" for="gender">Gender <span class="req">*</span></label>
+            <select id="gender" name="Gender" required>
+              <option value="">Select gender</option>
+              <option>Female</option>
+              <option>Male</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label class="small-label" for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="Birthday" autocomplete="bday">
+          </div>
+          <div>
+            <label class="small-label" for="referred">Referred By <span class="req">*</span></label>
+            <input type="text" id="referred" name="Referred By" placeholder="Name, Instagram, Google…" required>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="today">2. Please enter today’s date <span class="req">*</span></label>
+        <input type="date" id="today" name="Today's Date" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Please take a photo of the front, back, top and sides of your hair <span class="req">*</span></legend>
+        <p class="hint">Make sure you have good lighting, take photos during the day, and clean your camera. Front and back photos are required.</p>
+        <div class="upload"><label class="small-label" for="ph-front">Front <span class="req">*</span></label><input type="file" id="ph-front" name="Photo - Front" accept="image/*" required><div class="previews"></div></div>
+        <div class="upload"><label class="small-label" for="ph-back">Back <span class="req">*</span></label><input type="file" id="ph-back" name="Photo - Back" accept="image/*" required><div class="previews"></div></div>
+        <div class="upload"><label class="small-label" for="ph-top">Top</label><input type="file" id="ph-top" name="Photo - Top" accept="image/*"><div class="previews"></div></div>
+        <div class="upload"><label class="small-label" for="ph-sides">Sides</label><input type="file" id="ph-sides" name="Photo - Sides" accept="image/*"><div class="previews"></div></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>4. Please upload your ideal hair — goals, length, color, etc.</legend>
+        <div class="upload"><label class="small-label" for="ph-goal">Inspiration photo</label><input type="file" id="ph-goal" name="Photo - Ideal Hair" accept="image/*"><div class="previews"></div></div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q5">5. How did you hear about RSS Extensions / who referred you?</label>
+        <input type="text" id="q5" name="Q5 How did you hear about us" placeholder="Type your answer here">
+      </fieldset>
+
+      <fieldset>
+        <legend>6. Stylist</legend>
+        <div class="opts"><label><input type="checkbox" name="Q6 Stylist" value="Rosy"> Rosy</label></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>7. Which location are you interested in booking?</legend>
+        <div class="opts"><label><input type="checkbox" name="Q7 Location" value="Chicago in Logan Square"> Chicago in Logan Square</label></div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q8">8. How tall are you? <span class="req">*</span></label>
+        <input type="text" id="q8" name="Q8 Height" placeholder="Type your answer here" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>9. How often do you wash your hair?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q9 Wash frequency" value="1-2 times per week"> 1-2 times per week</label>
+          <label><input type="radio" name="Q9 Wash frequency" value="2-4 times per week"> 2-4 times per week</label>
+          <label><input type="radio" name="Q9 Wash frequency" value="5+ times per week"> 5+ times per week</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>10. Are you actively experiencing hair loss or shedding?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q10 Hair loss or shedding" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q10 Hair loss or shedding" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>11. Are you pregnant or less than 6 months post-partum?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q11 Pregnant or post-partum" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q11 Pregnant or post-partum" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>12. Are you aware extensions typically cost between $1200–5000+?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q12 Aware of cost" value="No, I did not"> No, I did not</label>
+          <label><input type="radio" name="Q12 Aware of cost" value="Yes! I've done some research"> Yes! I’ve done some research</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>13. What type of extension are you interested in?</legend>
+        <div class="opts"><label><input type="checkbox" name="Q13 Extension type" value="Invisible Ktips"> Invisible K-Tips</label></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>14. Do you understand that your desired goals and your natural hair will dictate your maintenance schedule?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q14 Understands maintenance" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q14 Understands maintenance" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>15. Have you had COVID-19 in the past 3 months? Hair loss is a potential side effect of COVID after 12 weeks.</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q15 COVID past 3 months" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q15 COVID past 3 months" value="No"> No</label>
+          <label><input type="radio" name="Q15 COVID past 3 months" value="Maybe"> Maybe</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q16">16. Have you been diagnosed with an auto-immune disorder? For example: lupus, hypothyroidism, etc. Please give details.</label>
+        <input type="text" id="q16" name="Q16 Auto-immune disorder" placeholder="Type your answer here">
+      </fieldset>
+
+      <fieldset>
+        <legend>17. Are you on thyroid medication? (Some thyroid medications coat the hair and do not allow the extensions to properly adhere to the hair.)</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q17 Thyroid medication" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q17 Thyroid medication" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>18. Surgical history: check all that apply.</legend>
+        <div class="opts">
+          <label><input type="checkbox" name="Q18 Surgical history" value="I had anesthesia and/or surgery in the last 6 months"> I had anesthesia &amp;/or surgery in the last 6 months</label>
+          <label><input type="checkbox" name="Q18 Surgical history" value="I plan on getting surgery in the next six months"> I plan on getting surgery in the next six months</label>
+          <label><input type="checkbox" name="Q18 Surgical history" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>19. Do you have any skin allergies/sensitivities?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q19 Skin allergies" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q19 Skin allergies" value="No"> No</label>
+          <label><input type="radio" name="Q19 Skin allergies" value="Not sure"> Not sure</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>20. What is the longest your hair will grow?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q20 Longest natural length" value="To my shoulders"> To my shoulders</label>
+          <label><input type="radio" name="Q20 Longest natural length" value="To my breast"> To my breast</label>
+          <label><input type="radio" name="Q20 Longest natural length" value="To my waist"> To my waist</label>
+          <label><input type="radio" name="Q20 Longest natural length" value="It'll grow until I cut it"> It’ll grow until I cut it</label>
+          <label><input type="radio" name="Q20 Longest natural length" value="I don't know"> I don’t know</label>
+          <label><input type="radio" name="Q20 Longest natural length" value="Other"> Other</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>21. Does your hair tangle easily?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q21 Tangles easily" value="It's the worst!"> It’s the worst!</label>
+          <label><input type="radio" name="Q21 Tangles easily" value="Not too bad"> Not too bad</label>
+          <label><input type="radio" name="Q21 Tangles easily" value="Never"> Never</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>22. Have you ever had extensions in the past other than temporary clip-ins or halos?</legend>
+        <div class="opts">
+          <label><input type="radio" name="Q22 Had extensions before" value="Yes"> Yes</label>
+          <label><input type="radio" name="Q22 Had extensions before" value="No"> No</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>23. If yes, what method?</legend>
+        <div class="opts">
+          <label><input type="checkbox" name="Q23 Previous method" value="Tape in"> Tape in</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Micro Link"> Micro Link</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Keratin Bond"> Keratin Bond</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Beaded Wefts"> Beaded Wefts</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Sew-in Wefts"> Sew-in Wefts</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Never had extensions"> Never had extensions</label>
+          <label><input type="checkbox" name="Q23 Previous method" value="Other"> Other</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q24">24. Please describe your current hair in detail. What do you like, what don’t you like? What is your ideal goal with extensions? Be specific. <span class="req">*</span></label>
+        <textarea id="q24" name="Q24 Current hair and goals" placeholder="Type your answer here" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q25">25. Do you get any kind of professional hair services? Balayage, highlights, Qiqi, keratin, etc. If yes, how often? Do you need me to do any of these services for you? <span class="req">*</span></label>
+        <textarea id="q25" name="Q25 Professional hair services" placeholder="Type your answer here" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>26. How soon would you like an appointment?</legend>
+        <div class="opts">
+          <label><input type="checkbox" name="Q26 How soon" value="Tomorrow, I will pay a squeeze fee!"> Tomorrow, I will pay a squeeze fee!</label>
+          <label><input type="checkbox" name="Q26 How soon" value="This month"> This month</label>
+          <label><input type="checkbox" name="Q26 How soon" value="Next month"> Next month</label>
+          <label><input type="checkbox" name="Q26 How soon" value="Need a weekend"> Need a weekend</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q27">27. What is your natural hair texture and type? Ex. (curly, wavy, straight, smooth, frizzy, fine, medium, thick or textured.) <span class="req">*</span></label>
+        <input type="text" id="q27" name="Q27 Hair texture and type" placeholder="Type your answer here" required>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q28">28. Do you blow dry (salon blowouts, round brush and blow dry) your hair on a regular basis? If so, how often per week? <span class="req">*</span></label>
+        <input type="text" id="q28" name="Q28 Blow dry frequency" placeholder="Type your answer here" required>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q29">29. What is your favorite genre of music/favorite artist? What has been on repeat lately? <span class="req">*</span></label>
+        <input type="text" id="q29" name="Q29 Music" placeholder="Type your answer here" required>
+      </fieldset>
+
+      <fieldset>
+        <label class="q" for="q30">30. How do you take your coffee/tea? <span class="req">*</span></label>
+        <input type="text" id="q30" name="Q30 Coffee or tea" placeholder="Type your answer here" required>
+      </fieldset>
+
+      <fieldset>
+        <div class="notice">I understand that if I proceed with my consultation, I must arrive with my hair in the current state, length and color I wish to match with the extensions. Any changes in your length and color between the date of consultation and installation can result in a change in price or the cancellation of the appointment altogether.</div>
+        <div class="notice">I hereby grant Rosaisela aka Studio Privé permission to use my likeness in a photograph, video or other digital media in any and all of its publications, including web-based and social media publications — mostly before and after photographs showing the face of the client. If you are not comfortable with your face shown on social media, the hair and the work from the back can be published.</div>
+        <p class="q">Must sign below to proceed <span class="req">*</span></p>
+        <div class="opts" style="margin-bottom:12px"><label><input type="checkbox" name="Agreement" value="I agree to use electronic records and signatures." required> I agree to use electronic records and signatures.</label></div>
+        <input type="text" name="Signature (full name)" placeholder="Type your full name as your signature *" required aria-label="Signature: type your full name">
+      </fieldset>
+
+      <div class="submit-row">
+        <button class="btn" type="submit" id="submit-btn">Submit</button>
+      </div>
+    </form>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__bottom" style="padding-top:0">
+      <span>© <span id="year">2026</span> Studio Privé. All rights reserved.</span>
+      <a href="tel:+13127351290" style="color:#fff;text-decoration:none">(312) 735-1290</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="form.js"></script>
+</body>
+</html>
